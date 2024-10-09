@@ -14,11 +14,7 @@ PWPush Chrome Extension is a tool that enables users to easily send selected tex
 
 ## Installation
 
-1. Clone or download the repository from GitHub.
-2. Go to `chrome://extensions/` in Google Chrome.
-3. Enable **Developer mode** by toggling the switch in the top-right corner.
-4. Click **Load unpacked** and select the project folder to load the extension.
-5. The PWPush extension icon will now appear in your Chrome toolbar.
+[Chrome Webstore](https://chrome.google.com/webstore/detail/your-extension-id)
 
 ## How to Use
 
