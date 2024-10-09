@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWPush - Settings</title>
+
+    <!-- Link to shared CSS -->
+    <link href="popup.css" rel="stylesheet">
+</head>
+<body>
+    <h2>PWPush Settings</h2>
+
+    <div class="container">
+        <div class="setting">
+            <label for="daysRange">Days until expiration:</label>
+            <input type="range" id="daysRange" min="1" max="30" value="5">
+            <span id="daysValue">5</span> days
+        </div>
+
+        <div class="setting">
+            <label for="viewsRange">Views until expiration:</label>
+            <input type="range" id="viewsRange" min="1" max="100" value="10">
+            <span id="viewsValue">10</span> views
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="oneStep">
+            <label for="oneStep">One-step link</label>
+        
+            <input type="checkbox" id="userDeletable">
+            <label for="userDeletable">Deletable by viewer</label>
+        </div>
+        
+
+        <button id="saveOptions">Save Options</button>
+
+        <!-- Link to return to the home page -->
+        <a href="popup.html" class="settings-link">Return to Home</a>
+    </div>
+
+    <!-- Footer support message outside the frosted container -->
+    <footer class="support-footer">
+        Please support the official release: 
+        <a href="https://pwpush.com/" target="_blank">PWPush.com</a>
+    </footer>
+
+    <!-- Include settings.js -->
+    <script src="settings.js"></script>
+</body>
+</html>
